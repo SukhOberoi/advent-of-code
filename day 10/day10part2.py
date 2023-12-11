@@ -90,6 +90,7 @@ def findadj(current):
             prev = "E"
     return current
 
+
 with open("day 10\\input.txt", "r") as file:
     data = file.readlines()
     data = list(map(lambda x: list(x.rstrip("\n")), data))
